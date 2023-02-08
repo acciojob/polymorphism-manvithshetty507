@@ -10,20 +10,20 @@ public class Main {
             this.x = x;
             this.y = y;
 
-            return x;
+            return x*y;
         }
         public int product(int x,int y,int z){
             this.x = x;
             this.y = y;
             this.z = z;
 
-            return z;
+            return x*y*z;
         }
         public double product(double x,double y){
             this.x = (int)x;
             this.y = (int)y;
 
-            return y;
+            return x*y;
         }
     }
 
